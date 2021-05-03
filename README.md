@@ -4,7 +4,7 @@
 <b>Specification:</b><br>
 // fully responsive<br>
 // contains the JS mobile version<br>
-// Writed on FlexBox<br>
+// Writed on Flexbox<br>
 <br>
 <b>Preview:</b><br>
 https://gerwld.github.io/Easy-Flex-Menu-6x4/
