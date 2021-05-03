@@ -62,6 +62,7 @@ a:hover {
   margin-left: -1px;
   font-size: 26px;
   font-weight: bold;
+  width: 100%;
 }
 
 .flexbox-menu div {
