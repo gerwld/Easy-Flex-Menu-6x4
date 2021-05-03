@@ -41,19 +41,20 @@ a:hover {
   width: 100%;
 }
 
-
 .mobile-menu {
   display: none;
   border: 1px solid black;
   flex: 1 1 100%;
   text-align: center;
   padding: 20px 0;
+  margin-left: -1px;
   font-size: 26px;
   font-weight: bold;
 }
 
 .flexbox-menu div {
   border: 1px solid black;
+  margin-left: -1px;
   box-sizing: border-box;
   text-align: center;
 }
@@ -75,6 +76,10 @@ a:hover {
     flex: 1 1 50%;
   }
 
+  .flexbox-menu div {
+    margin-top: -1px;
+  }
+
   .nav-button {
     flex: 1 1 25%;
   }
@@ -84,6 +89,7 @@ a:hover {
 @media all and (max-width: 500px) {
   .mobile-menu {
     display: block;
+    cursor: pointer;
   }
 
   .flexbox-menu .nav-button,
