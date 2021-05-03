@@ -2,7 +2,7 @@
 
 
 <b>Specification:</b><br>
-// fully adaptive<br>
+// fully responsive<br>
 // contains the JS mobile version<br>
 // Writed on FlexBox<br>
 <br>
