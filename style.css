@@ -55,14 +55,16 @@ a:hover {
 
 .mobile-menu {
   display: none;
-  border: 1px solid black;
+  width: 100%;
   flex: 1 1 100%;
   text-align: center;
   padding: 20px 0;
   margin-left: -1px;
+  margin-bottom: 0;
+
   font-size: 26px;
   font-weight: bold;
-  width: 100%;
+  border: 1px solid black;
 }
 
 .flexbox-menu div {
