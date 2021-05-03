@@ -101,6 +101,7 @@ a:hover {
   .content-wrapper {
     max-width: 500px;
     margin: 0 auto;
+    height: 100vh;
   }
 
   .mobile-menu {
