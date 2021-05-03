@@ -1,10 +1,10 @@
 # Easy Flex Menu 6/4
 
 
-Specification:
-// fully adaptive
-// contains the JS mobile version
-// Writed on FlexBox
+Specification: <br>
+// fully adaptive <br>
+// contains the JS mobile version <br>
+// Writed on FlexBox<br>
 
 
 https://gerwld.github.io/Easy-flex-6x4/
