@@ -20,17 +20,24 @@ a:hover {
 
 }
 
-.flexbox-menu a,
-.flexbox-menu span  {
-  display:block;
-  width: 100%;
+.flexbox-menu a {
+  display: flex;
+  -ms-align-items: center;
+  align-items: center;
+  flex-basis: 100%;
+}
+
+.flexbox-menu .element,
+.flexbox-menu .nav-button {
+  display: flex;
 }
 
 .flexbox-menu a {
   padding: 10px 0;
 }
 
-.mobile-menu span{
+.flexbox-menu span{
+  display: block;
   width: 100%;
 }
 
@@ -51,11 +58,7 @@ a:hover {
   text-align: center;
 }
 
-.element {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
+
 
 .element {
   flex: 4;
@@ -79,13 +82,12 @@ a:hover {
 }
 
 @media all and (max-width: 500px) {
-
   .mobile-menu {
     display: block;
   }
 
-  .nav-button,
-  .element {
+  .flexbox-menu .nav-button,
+  .flexbox-menu .element {
     display: none;
   }
 
@@ -96,6 +98,7 @@ a:hover {
 
   .nav-button a {
     display: block;
-    padding: 20px;
+    padding: 20px 0;
   }
+
   }
