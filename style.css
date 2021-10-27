@@ -106,6 +106,8 @@ a:hover {
   .mobile-menu {
     display: block;
     cursor: pointer;
+    line-height: 30px;
+    height: 75px;
   }
 
   .flexbox-menu .nav-button,
