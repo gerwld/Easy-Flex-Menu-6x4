@@ -1,4 +1,4 @@
-# Easy Flex Menu 6/4
+# Responsive Flex Menu 6/4
 
 
 <b>Specification:</b><br>
@@ -7,4 +7,4 @@
 // Writed on Flexbox<br>
 <br>
 <b>Preview:</b><br>
-https://gerwld.github.io/Easy-Flex-Menu-6x4/
+https://gerwld.github.io/Responsive-Flex-Menu-6x4/
